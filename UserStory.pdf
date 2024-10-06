@@ -1,0 +1,167 @@
+Story 1: Add Item to Cart
+As a customer,
+I need to be able to add items to my shopping cart,
+so I can review my selected items before checkout.
+
+Acceptance Criteria:
+
+The "Add to Cart" button is available on all product pages.
+Once an item is added, a notification appears confirming the addition.
+The cart icon displays the updated item count.
+Size: Small
+
+Story 2: View Shopping Cart
+As a customer,
+I need to be able to view my shopping cart,
+so I can see all the items I have selected before proceeding to checkout.
+
+Acceptance Criteria:
+
+A cart icon is visible on all pages.
+Clicking the cart icon opens a modal or redirects to the cart page.
+The cart displays all added items, quantities, and total cost.
+Size: Small
+
+Story 3: Update Item Quantity
+As a customer,
+I need to be able to change the quantity of items in my cart,
+so I can adjust my order based on my needs.
+
+Acceptance Criteria:
+
+Each item in the cart has an input field for quantity.
+The total cost updates automatically when the quantity changes.
+The cart reflects the correct quantity after updates.
+Size: Small
+
+Story 4: Remove Item from Cart
+As a customer,
+I need to be able to remove items from my shopping cart,
+so I can eliminate unwanted items before checkout.
+
+Acceptance Criteria:
+
+Each item in the cart has a "Remove" button.
+Clicking "Remove" prompts for confirmation.
+The item is removed, and the cart updates accordingly.
+Size: Small
+
+Story 5: Proceed to Checkout
+As a customer,
+I need to be able to proceed to the checkout process,
+so I can finalize my order and make a payment.
+
+Acceptance Criteria:
+
+A "Proceed to Checkout" button is available in the cart.
+Clicking the button redirects me to the checkout page.
+The cart contents are preserved when I navigate to checkout.
+Size: Small
+
+Story 6: Enter Shipping Information
+As a customer,
+I need to be able to enter my shipping address,
+so I can receive my order at the correct location.
+
+Acceptance Criteria:
+
+A form is provided to enter shipping details (name, address, city, etc.).
+The form validates input fields for correctness.
+A confirmation message appears after successfully submitting shipping details.
+Size: Medium
+
+Story 7: Choose Shipping Method
+As a customer,
+I need to be able to select my preferred shipping method,
+so I can choose the option that best fits my needs and budget.
+
+Acceptance Criteria:
+
+Shipping options (e.g., standard, express) are displayed with associated costs.
+Selecting a shipping method updates the total cost in real-time.
+The selected method is confirmed and saved before payment.
+Size: Medium
+
+Story 8: Enter Payment Information
+As a customer,
+I need to be able to enter my payment details,
+so I can complete my purchase securely.
+
+Acceptance Criteria:
+
+A secure form is available for credit card or payment provider details.
+Payment fields validate input for correctness.
+A confirmation message appears after successfully submitting payment information.
+Size: Medium
+
+Story 9: Review Order Summary
+As a customer,
+I need to be able to review my order summary before completing the purchase,
+so I can ensure all details are correct.
+
+Acceptance Criteria:
+
+An order summary page displays items, shipping address, shipping method, and payment details.
+A "Confirm Order" button is available.
+Changes can be made to any section before confirmation.
+Size: Medium
+
+Story 10: Receive Order Confirmation
+As a customer,
+I need to be able to receive an order confirmation after completing my purchase,
+so I can be assured that my order has been placed.
+
+Acceptance Criteria:
+
+A confirmation message displays the order number and details.
+An email confirmation is sent to the registered email address.
+The order summary is available in the user account section.
+Size: Medium
+
+Story 11: Save Payment Information
+As a customer,
+I need to be able to save my payment information for future purchases,
+so I can check out more quickly next time.
+
+Acceptance Criteria:
+
+An option to save payment details is provided during checkout.
+Payment information is stored securely.
+Saved payment methods can be managed in the user account settings.
+Size: Large
+
+Story 12: Apply Discount Code
+As a customer,
+I need to be able to enter a discount code during checkout,
+so I can receive a discount on my order.
+
+Acceptance Criteria:
+
+A field to enter discount codes is available during checkout.
+Valid codes apply discounts to the total price.
+Invalid codes display an appropriate error message.
+Size: Medium
+
+Story 13: View Order History
+As a customer,
+I need to be able to view my order history,
+so I can track my past purchases and their statuses.
+
+Acceptance Criteria:
+
+An order history section is available in the user account.
+Each order shows details like date, items, and status.
+A link to view the order details is available for each purchase.
+Size: Medium
+
+Story 14: Handle Payment Errors
+As a customer,
+**I need to be notified if there is an error with my payment,
+so I can correct any issues and complete my purchase.
+
+Acceptance Criteria:
+
+Clear error messages are displayed for payment failures.
+The user can retry entering payment information.
+No order is processed if payment fails.
+Size: Medium
